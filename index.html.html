@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mangesh S Damre</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: url('kd.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        header {
+            background: rgba(51, 51, 51, 0.8);
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+            text-align: center;
+            border-radius: 10px 10px 0 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            animation: fadeInDown 2s;
+        }
+        nav ul {
+            padding: 0;
+            list-style: none;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 5px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1em;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background 0.3s, color 0.3s;
+        }
+        nav ul li a:hover {
+            background: #77aaff;
+            color: #333;
+        }
+        .content {
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            margin-bottom: 10px;
+            border-radius: 10px;
+            animation: fadeInUp 2s;
+            color: #333;
+        }
+        .content h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .profile-image {
+            max-width: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 20px auto;
+        }
+        footer {
+            background: rgba(51, 51, 51, 0.8);
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 0 0 10px 10px;
+        }
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-30px);
+            }
+            60% {
+                transform: translateY(-15px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mangesh S Damre</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#extracurricular">Extracurricular</a></li>
+                    <li><a href="#awards">Awards</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <section id="home" class="content">
+            <h2>Home</h2>
+            <img src="img.jpg" alt="Profile Picture" class="profile-image">
+            <p>Hello! I'm Mangesh S Damre, a software developer based in Maharashtra, India. I'm currently pursuing my Master of Technology in Information Technology at the Indian Institute of Information Technology, Allahabad. Welcome to my personal webpage where you can learn more about my background, skills, and projects.</p>
+        </section>
+        <section id="education" class="content">
+            <h2>Education</h2>
+            <h3>Indian Institute of Information Technology, Allahabad (Aug 2023 - Present)</h3>
+            <p>Master of Technology (Information Technology)</p>
+            <h3>Prof. Ram Meghe Institute of Technology and Research, Amravati (2019 - 2022)</h3>
+            <p>Bachelor of Engineering (Information Technology)</p>
+            <ul>
+                <li>CGPA: 9.21</li>
+                <li>First Class Marks in Every Academic Semester</li>
+            </ul>
+            <h3>Government Polytechnic, Amravati (2016 - 2019)</h3>
+            <p>Diploma (Information Technology)</p>
+            <ul>
+                <li>Diploma percentage: 64.06%</li>
+            </ul>
+        </section>
+        <section id="experience" class="content">
+            <h2>Experience</h2>
+            <h3>LTIMindtree, Pune (July 2022 - August 2023)</h3>
+            <p>Software Developer</p>
+            <ul>
+                <li>1+ year of experience as an Integration Engineer</li>
+                <li>Worked on various Integration platforms like MuleSoft Anypoint and Boomi Atmosphere</li>
+                <li>Configured and deployed Mule files</li>
+                <li>Coordinated API testing and analysis</li>
+                <li>Implemented data systems</li>
+                <li>Worked in Mule ESB environments</li>
+                <li>Integrated data from various sources into databases</li>
+            </ul>
+        </section>
+        <section id="skills" class="content">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: C, C++, Core Java</li>
+                <li>Integration: MuleSoft, Boomi</li>
+                <li>Database: MySQL</li>
+                <li>Familiar with Data Structures, Operating Systems, Computer Networks</li>
+            </ul>
+        </section>
+        <section id="projects" class="content">
+            <h2>Personal Projects</h2>
+            <h3>M_CHAT (2021)</h3>
+            <p>Desktop application that helps to communicate. Java/Java (Swings) is used to create frames, and socket programming is used for networking.</p>
+            <h3>Online Shop (2019)</h3>
+            <p>Web application for online shopping. My role was to develop the frontend for this Web Application using HTML and CSS.</p>
+        </section>
+        <section id="extracurricular" class="content">
+            <h2>Extracurricular Activities</h2>
+            <h3>JH Society (2019)</h3>
+            <p>Education Lead</p>
+            <ul>
+                <li>Designed a 5-week curriculum focusing on technical and interpersonal skills, and introduction about new technologies</li>
+                <li>Responsible for running workshops to teach curriculum content</li>
+            </ul>
+            <h3>Prayas (2018)</h3>
+            <p>Event Team</p>
+            <ul>
+                <li>Responsible for planning and organizing the prize distribution</li>
+                <li>Actively promoted the program within the student body through informational stalls and campaigns</li>
+            </ul>
+        </section>
+        <section id="awards" class="content">
+            <h2>Awards</h2>
+            <ul>
+                <li>Dr. Panjabrav Deshmukh State Level Drama Competition (2009) - Best Small Actor (Bal Ratna) for best acting</li>
+                <li>Prayas Award (2019) - For social working</li>
+                <li>Best Helping Hand (LTIMindtree 2022) - For being the best team player of the batch and helping teammates during training</li>
+            </ul>
+        </section>
+        <section id="contact" class="content">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:mangeshdamre1998@gmail.com">mangeshdamre1998@gmail.com</a></p>
+            <p>Phone: +91 77099 53889</p>
+            <p>Location: Maharashtra, India</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Mangesh S Damre</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const sections = document.querySelectorAll('.content');
+            const options = {
+                threshold: 0.1
+            };
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.animation = 'bounce 2s';
+                    }
+                });
+            }, options);
+
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+        });
+    </script>
+</body>
+</html>
